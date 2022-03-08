@@ -53,6 +53,9 @@ header .navbar > button {
     box-shadow: 2px 2px 4px var(--shadow-color);
     cursor: pointer;
 }
+header .navbar > button > i {
+    font-size: 1.1rem;
+}
 header .navbar > .img-container {
     border: 3px solid black;
     border-radius: 10px;
@@ -86,7 +89,7 @@ footer {
 
 .preview-cv {
     background: white;
-    min-height: 100vh;
+    min-height: 95vw;
     margin: 5vw;
     box-shadow: 3px 3px 8px var(--shadow-color);
     position: relative;
