@@ -63,6 +63,9 @@ header .navbar > .img-container {
     height: 60px;
     width: 60px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    place-items: center;
 }
 header .navbar > .img-container > img{
     object-fit: cover;
